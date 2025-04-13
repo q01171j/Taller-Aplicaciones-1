@@ -1,4 +1,4 @@
-## 🔙 [Volver al inicio del repositorio](../README.md)
+## 🔙 [Volver al inicio del repositorio](../)
 
 ---
 
