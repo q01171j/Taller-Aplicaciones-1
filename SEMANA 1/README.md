@@ -1,3 +1,7 @@
+## 🔙 [Volver al inicio del repositorio](../README.md)
+
+---
+
 # Semana 1
 
 En esta semana, el contenido está organizado en tres secciones principales:
@@ -17,9 +21,3 @@ Cada una de estas secciones contiene:
 - El **diseño** del ejercicio
 - El **diagrama UML**
 - El **código fuente** con explicación
-
----
-## 🔙 [Volver al inicio del repositorio](../README.md)
-
-
-
