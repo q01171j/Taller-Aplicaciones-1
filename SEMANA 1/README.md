@@ -12,9 +12,9 @@ En esta semana, el contenido está dividido en dos partes principales: **Clases*
 
 ## Contenido
 
-- 📘 [Clases](./CLASE/README.md)
-- 📝 [Actividad 1](./ACTIVIDAD%201/README.md)  
-- 📝 [Actividad 2](./ACTIVIDAD%202/README.md)
+- 📘 [Clases](./CLASE)
+- 📝 [Actividad 1](./ACTIVIDAD%201)  
+- 📝 [Actividad 2](./ACTIVIDAD%202)
 
 Cada una de estas secciones contiene:
 - El **enunciado** del ejercicio
