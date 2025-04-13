@@ -1,8 +1,8 @@
-## 🔙 [Volver a Semana 1](../README.md)
+## 🔙 [Volver a Semana 1](../)
 
 ---
 
-# 🧾 Actividad 02 - Distribución del Presupuesto
+# 🧾 Actividad 02
 
 ---
 
