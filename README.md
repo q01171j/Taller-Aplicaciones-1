@@ -23,6 +23,7 @@ Aquí encontrarás todos los trabajos, ejercicios y proyectos desarrollados a lo
 |--------|-------------|
 | ✅ [Semana 1](./SEMANA%201) | Clases, ejercicios y actividades con Java |
 | ✅ [Semana 2](./SEMANA%202) | Clases, ejercicios y actividades con Java |
+| ✅ [Semana 3](./SEMANA%203) | Clases, ejercicios y actividades con Java |
 
 > 📌 Cada semana contiene su propia carpeta con proyectos, diagramas UML, código fuente y su respectivo `README.md`.
 
