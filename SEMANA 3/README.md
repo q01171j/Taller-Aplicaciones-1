@@ -13,8 +13,7 @@ En esta semana, el contenido está dividido en dos partes principales: **Clases*
 ## Contenido
 
 - 📘 [Clases](./CLASE)
-- 📝 [Actividad 1](./ACTIVIDAD%201)  
-- 📝 [Actividad 2](./ACTIVIDAD%202)
+- 📝 [Actividad 1](./ACTIVIDAD%201)
 
 Cada una de estas secciones contiene:
 - El **enunciado** del ejercicio
