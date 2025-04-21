@@ -4,7 +4,7 @@
 
 # Semana 2
 
-En esta semana, el contenido está organizado en tres secciones principales:
+En esta semana, el contenido está organizado en cuatro secciones principales:
 
 En esta semana, el contenido está dividido en dos partes principales: **Clases** y **Actividad**. Cada sección incluye el enunciado, el diseño, el diagrama UML y el código correspondiente.
 

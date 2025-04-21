@@ -4,8 +4,6 @@
 
 # 🧮 Clase - Semana 2
 
-Este proyecto consiste en una aplicación para calcular el **área** y el **perímetro** de un cuadrado, utilizando **Lenguaje Java**, el **IDE NetBeans** y el gestor de proyectos **Maven**.
-
 ---
 
 ## 📄 Enunciado
@@ -30,10 +28,7 @@ Semestralmente, la universidad efectúa rebajas en las pensiones de sus estudian
 | 16.00 a 17.99 | 12 %             |
 | 18.00 a 20.00 | 15 %             |
 
----
-
-📌 **Objetivo**:  
-Dado el promedio ponderado y la categoría de un estudiante, diseñe una aplicación que determine cuánto de rebaja recibirá sobre su pensión actual y a cuánto asciende su nueva pensión.
+>💡 **Objetivo**: Dado el promedio ponderado y la categoría de un estudiante, diseñe una aplicación que determine cuánto de rebaja recibirá sobre su pensión actual y a cuánto asciende su nueva pensión.
 
 ---
 

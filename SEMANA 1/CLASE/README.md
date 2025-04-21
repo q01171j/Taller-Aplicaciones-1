@@ -4,13 +4,11 @@
 
 # 🧮 Clase - Semana 1
 
-Este proyecto consiste en una aplicación para calcular el **área** y el **perímetro** de un cuadrado, utilizando **Lenguaje Java**, el **IDE NetBeans** y el gestor de proyectos **Maven**.
-
 ---
 
 ## 📄 Enunciado
 
-> Realizar un programa que halle el área y perímetro de un cuadrado, utilizando **Lenguaje Java**, el **IDE NetBeans** y el marco de gestión de proyectos de software **Maven**.
+**Realizar un programa que halle el área y perímetro de un cuadrado**, utilizando **Lenguaje Java**, el **IDE NetBeans** y el marco de gestión de proyectos de software **Maven**.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ---
 
-# 🛍️ Actividad 01
+# 🛍️ Actividad 01 - Semana 2
 
 ---
 

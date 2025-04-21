@@ -2,7 +2,7 @@
 
 ---
 
-# 🧾 Actividad 02
+# 🧾 Actividad 02 - Semana 2
 
 ---
 
