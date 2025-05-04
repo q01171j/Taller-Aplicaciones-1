@@ -2,17 +2,14 @@
 
 ---
 
-# Semana 3
+# Semana 7
 
-En esta semana, el contenido está organizado en cuatro secciones principales:
-
-En esta semana, el contenido está dividido en dos partes principales: **Clases** y **Actividad**. Cada sección incluye el enunciado, el diseño, el diagrama UML y el código correspondiente.
+Durante esta semana se desarrolló un único proyecto completo aplicando el patrón de arquitectura **MVC (Modelo-Vista-Controlador)**. El trabajo está estructurado en cinco componentes clave: **Controlador**, **Main**, **Modelo DAO**, **Modelo DTO** y **Vista**. Cada sección incluye su respectivo enunciado, diseño, diagrama UML y código fuente, permitiendo comprender cómo se integran y colaboran estas capas dentro de la aplicación.
 
 ---
 
 ## Contenido
 
-- 📘 [Clases](./CLASE)
 - 📝 [Actividad 1](./ACTIVIDAD%201)
 
 Cada una de estas secciones contiene:
