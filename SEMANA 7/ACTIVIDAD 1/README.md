@@ -1,46 +1,39 @@
-## 🔙 [Volver a Semana 4](../)
+## 🔙 [Volver a Semana 7](../)
 
 ---
 
-# 🛍️ Actividad 01 - Semana 3
+# 🛍️ Actividad 01 - Semana 4
 
 ---
 
 ## 📄 Enunciado
 
-Durante esta semana se trabajó el mismo proyecto planteado en la Semana 3, pero reestructurado completamente bajo el patrón de arquitectura **MVC (Modelo-Vista-Controlador)**.
+Durante esta semana se desarrolló un sistema de gestión de carnets, reestructurado completamente bajo el patrón de arquitectura **MVC (Modelo-Vista-Controlador)**.
 
-El objetivo fue organizar el código en capas bien definidas que separan la lógica de negocio, la interfaz gráfica y el acceso a datos, mejorando así la mantenibilidad, escalabilidad y claridad del sistema.
+El proyecto permite administrar información de usuarios a través de una interfaz gráfica. Desde un **menú principal**, el usuario puede realizar operaciones como **crear, buscar, actualizar y eliminar carnets**. La información se visualiza en una tabla y puede filtrarse mediante un campo de búsqueda por DNI.
 
-Se trata de un sistema de escritorio con interfaz gráfica que permite la gestión de usuarios a través de un módulo de login y registro. El sistema contempla dos tipos de usuario:
-
-| **Rol**        | **Permisos**                                                                                             |
-| -------------- | -------------------------------------------------------------------------------------------------------- |
-| Administrador  | Accede al cálculo de área de todas las figuras: **Cuadrado**, **Triángulo**, **Rectángulo**, **Círculo** |
-| Usuario normal | Solo accede al cálculo de **Cuadrado** y **Triángulo**.                                                  |
-
-Una vez que el usuario inicia sesión, es redirigido a un menú principal donde podrá seleccionar la figura geométrica deseada para calcular su área. La interfaz se adapta dinámicamente según la figura seleccionada, mostrando únicamente los campos necesarios.
-
-El sistema valida la entrada numérica y responde visualmente al usuario desactivando botones e inputs de forma inteligente, asegurando una experiencia intuitiva.
+Cada carnet contiene datos clave como:  
+**DNI, Código, Nombres, Apellidos, Facultad, Carrera y Fecha de Expiración**, además de una imagen representativa.
 
 ---
 
 📌 **Objetivo**:  
-Reestructurar e implementar la aplicación utilizando el patrón MVC, manteniendo los siguientes requerimientos funcionales:
+Aplicar el patrón MVC para organizar correctamente las responsabilidades en la aplicación:
 
-- Registro e inicio de sesión con control de roles (**admin** / **usuario normal**).
-- Validación de que el DNI sea único y numérico durante el registro.
-- Menú gráfico dinámico según el rol del usuario.
-- Cálculo del área de figuras geométricas:
-  - 📐 Cuadrado (lado)
-  - 📏 Triángulo (base y altura iguales)
-  - 📊 Rectángulo (base y altura)
-  - ⚪ Círculo (radio)
-- Control de visibilidad y habilitación de campos y botones según la figura seleccionada.
-- Aplicación correcta de los fundamentos de POO y estructura MVC:
-  - Uso de clases abstractas
-  - Herencia, polimorfismo y encapsulamiento
-  - Separación clara entre Modelo (DAO y DTO), Vista y Controlador
+- **Vista:** interfaz gráfica intuitiva, con validaciones visuales y control de botones dinámico.
+- **Modelo (DAO y DTO):** manejo de la lógica de datos, validaciones y almacenamiento temporal.
+- **Controlador:** manejo de eventos y coordinación entre la vista y el modelo.
+
+El sistema incluye las siguientes funcionalidades:
+
+- ✅ Crear un nuevo carnet con validación de campos obligatorios y formato correcto.
+- 🔍 Buscar por número de DNI en tiempo real.
+- ♻️ Modificar datos existentes del carnet.
+- 🗑️ Eliminar registros.
+- 📄 Visualizar toda la información en una tabla.
+- 🎨 Carga y vista previa de imagen del carnet.
+
+Además, se aplican conceptos clave de **Programación Orientada a Objetos** como herencia, encapsulamiento, uso de constructores, y separación clara de responsabilidades.
 
 ---
 

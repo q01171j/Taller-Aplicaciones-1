@@ -1,20 +1,12 @@
-version: '3.9'
 services:
-  sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: sqlserver_container
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_container
+    restart: always
     environment:
-      - ACCEPT_EULA=Y
-      - SA_PASSWORD=123
-      - SA_USER=SA
-      - MSSQL_PID=Express
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: CarnetDB
     ports:
-      - "1433:1433"
+      - "3306:3306"
     volumes:
-      - ./sql:/sql
-    command: >
-      /bin/bash -c "
-        /opt/mssql/bin/sqlservr & 
-        sleep 20 && 
-        /opt/mssql-tools/bin/sqlcmd -S localhost -U ${SA_USER} -P ${SA_PASSWORD} -i /sql/init.sql
-      "
+      - ./sql:/docker-entrypoint-initdb.d

@@ -1,27 +1,20 @@
--- Si la base de datos existe, elimínala
-IF EXISTS (SELECT name FROM sys.databases WHERE name = 'CarnetDB')
-BEGIN
-    DROP DATABASE CarnetDB;
-END
-GO
+-- Eliminar la base de datos si existe
+DROP DATABASE IF EXISTS CarnetDB;
 
 -- Crear la base de datos
 CREATE DATABASE CarnetDB;
-GO
 
 -- Usar la base de datos
 USE CarnetDB;
-GO
 
--- Crear la tabla Carnet
-CREATE TABLE Carnets (
-    codigo NVARCHAR(50) PRIMARY KEY,
-    dni NVARCHAR(20) NOT NULL,
-    apellidos NVARCHAR(100) NOT NULL,
-    nombres NVARCHAR(100) NOT NULL,
-    facultad NVARCHAR(100) NOT NULL,
-    carrera NVARCHAR(100) NOT NULL,
+-- Crear la tabla Carnets solo si no existe
+CREATE TABLE IF NOT EXISTS Carnets (
+    codigo VARCHAR(50) PRIMARY KEY,
+    dni VARCHAR(20) NOT NULL,
+    apellidos VARCHAR(100) NOT NULL,
+    nombres VARCHAR(100) NOT NULL,
+    facultad VARCHAR(100) NOT NULL,
+    carrera VARCHAR(100) NOT NULL,
     fecha_expiracion DATE NOT NULL,
-    foto VARBINARY(MAX)
+    foto LONGBLOB
 );
-GO
