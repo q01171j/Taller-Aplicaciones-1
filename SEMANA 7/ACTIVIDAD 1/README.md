@@ -414,6 +414,21 @@ public static void main(String[] args) {
 }
 ```
 
+### 🔹 Package `Modelo.DAO` - Clase Abstracta `Conn`
+
+```java
+public abstract class Conn {
+
+    private static final String URL = "jdbc:mysql://localhost:3306/CarnetDB?useSSL=false&serverTimezone=UTC";
+    private static final String USUARIO = "root";
+    private static final String PASSWORD = "root123";
+
+    protected Connection obtenerConexion() throws SQLException {
+        return DriverManager.getConnection(URL, USUARIO, PASSWORD);
+    }
+}
+```
+
 ### 🔹 Package `Modelo.DAO` - Interfaz `IUsuarioDAO` - Metodo `resetCampos()`
 
 ```java
