@@ -27,6 +27,5 @@ La aplicación está orientada a **usuarios administrativos**, con roles diferen
 | 📘 [Base de Datos & Docker](./BASE%20DE%20DATOS) | Explicación de cómo configurar el entorno con Docker y MySQL. |
 | ⚙️ [Instalación de Dependencias](./INSTALACION%20DE%20DEPENDENCIAS) | Requisitos previos para ejecutar el proyecto.          |
 | 📐 [Estructura del Proyecto MVC](./ESTRUCTURA%20DEL%20PROYECTO%20MVC) | Organización por paquetes Java según el patrón MVC.    |
-| 👨‍💻 [Manual de Uso del Sistema](#manual-de-uso-del-sistema) | Instrucciones de uso general y flujo del sistema.      |
 
 ---
