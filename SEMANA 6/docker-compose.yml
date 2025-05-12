@@ -1,8 +1,10 @@
+version: "3.8"
+
 services:
   mysql:
     image: mysql:8.0
     container_name: mysql_container
-    restart: always
+    restart: "no"  # No reiniciar automáticamente
     environment:
       MYSQL_ROOT_PASSWORD: root123
       MYSQL_DATABASE: CarnetDB
@@ -10,3 +12,5 @@ services:
       - "3306:3306"
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
+    tmpfs:
+      - /var/lib/mysql  # Datos en memoria temporal
